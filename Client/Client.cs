@@ -9,7 +9,7 @@ namespace Client
         public Client()
         {
             SetNotificationTextEntry("STRING");
-            AddTextComponentSubstringPlayerName("Hello World!");
+            AddTextComponentSubstringPlayerName("Example notification");
             DrawNotification(true, true);
         }
     }
